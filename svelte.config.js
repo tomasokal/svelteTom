@@ -10,8 +10,6 @@ const config = {
             pages: "docs",
             assets: "docs"
         })
-        // hydrate the <div id="svelte"> element in src/app.html
-        // target: "#svelte"
     }
 };
 
