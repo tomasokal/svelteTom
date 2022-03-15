@@ -9,11 +9,7 @@ const config = {
         adapter: adapter({
             pages: "docs",
             assets: "docs"
-        }),
-        paths: {
-            // change below to your repo name
-            // base: "/svelteTom"
-        },
+        })
         // hydrate the <div id="svelte"> element in src/app.html
         // target: "#svelte"
     }
