@@ -7,8 +7,8 @@ const dev = "production" === "development";
 const config = {
     kit: {
         adapter: adapter({
-            pages: "docs",
-            assets: "docs"
+            pages: "docs/_app/assets/pages",
+            assets: "docs/_app/assets"
         })
     }
 };
